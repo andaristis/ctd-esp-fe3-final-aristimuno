@@ -5,11 +5,11 @@ export const reducer = (state, action) => {
                 case 'ADD_FAV': 
                 return {...state, favs: [...state.favs, action.payload]}
                 case 'CHANGE_THEME':
-            return {...state, theme: action.payload} //INCOMPLETO
+            return {...state, theme: action.payload}
                 case 'GET_DENTISTA':
                     return {...state, dentista: action.payload};
                 case 'DELETE_FAV': 
-                return {...state, favs: action.payload}//INCOMPLETO
+                return {...state, favs: action.payload}
                     
                 }
             }
